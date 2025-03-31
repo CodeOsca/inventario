@@ -1,0 +1,46 @@
+body{
+    position: relative;
+}
+
+.waves-light.red.darken-2{
+    position: absolute;
+    top:-40px;
+    right: 0;
+    transition: top .5s ease-in-out;
+}
+
+nav:hover + .btn.waves-effect.waves-light.red.darken-2,
+.btn.waves-effect.waves-light.red.darken-2:hover {
+    top: 0;
+}
+
+.input-field.col.s6{
+    position: relative;
+}
+
+
+input:focus + label, textarea:focus + label, .writed{
+    position: absolute;
+    top: -25px !important;
+    transition: all 1s ease !important;
+    font-size: .70rem;
+}
+
+
+.inone{
+    display: none;
+}
+
+
+
+div.col.s12.m6 {
+    padding-top: 3rem;
+
+}
+
+
+div.col.s12.m6.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

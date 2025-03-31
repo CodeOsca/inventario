@@ -1,0 +1,27 @@
+    
+.card .card-image .card-title {
+    text-align: center;
+    display: block;
+    position: relative;
+    color: brown;
+    padding: 0;
+}
+
+
+
+
+.waves-light.red.darken-2{
+    position: absolute;
+    top:-40px;
+    right: 0;
+    transition: top .5s ease-in-out;
+}
+
+nav:hover + .btn.waves-effect.waves-light.red.darken-2,
+.btn.waves-effect.waves-light.red.darken-2:hover {
+    top: 0;
+}
+
+
+
+
