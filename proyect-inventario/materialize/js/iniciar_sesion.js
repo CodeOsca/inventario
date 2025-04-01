@@ -1,7 +1,7 @@
 const $form = document.querySelector('form')
 
 const captureField = ()=>{
-    if( $form[0].value ==='josemi' && $form[1].value === 'pasimy' ) {
+    if( $form[0].value ==='josebriseño315' && $form[1].value === 'Uptz9871' ) {
         location.href = 'lista_existencias.html'
         localStorage.setItem('session_active', 'active')
     }
